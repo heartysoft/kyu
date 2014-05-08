@@ -2,7 +2,7 @@ using System.Collections.Concurrent;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Kyu
+namespace Kyu.Bus
 {
     public class QueuedHandler<T> : Handles<T> where T : Message
     {

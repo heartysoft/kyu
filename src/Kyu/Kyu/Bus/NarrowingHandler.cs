@@ -1,4 +1,4 @@
-﻿namespace Kyu
+﻿namespace Kyu.Bus
 {
     public class NarrowingHandler<TFrom, TTo> : Handles<TTo> where TFrom:TTo
         where TTo : Message

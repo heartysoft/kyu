@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Kyu
+namespace Kyu.Bus
 {
     public class RetryingHandler<T> : Handles<T>
         where T : Message

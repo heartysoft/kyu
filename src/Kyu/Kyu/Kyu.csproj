@@ -39,22 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bus.cs" />
-    <Compile Include="PublishToTopicHandler.cs" />
-    <Compile Include="Command.cs" />
-    <Compile Include="Event.cs" />
-    <Compile Include="Handles.cs" />
-    <Compile Include="IHaveCorrelationId.cs" />
-    <Compile Include="IHaveTimeToLive.cs" />
-    <Compile Include="Message.cs" />
-    <Compile Include="NarrowingHandler.cs" />
+    <Compile Include="Bus\Bus.cs" />
+    <Compile Include="Bus\Publisher.cs" />
+    <Compile Include="Bus\PublishToTopicHandler.cs" />
+    <Compile Include="Bus\Command.cs" />
+    <Compile Include="Bus\Event.cs" />
+    <Compile Include="Bus\Handles.cs" />
+    <Compile Include="Bus\IHaveCorrelationId.cs" />
+    <Compile Include="Bus\IHaveTimeToLive.cs" />
+    <Compile Include="Bus\Message.cs" />
+    <Compile Include="Bus\NarrowingHandler.cs" />
+    <Compile Include="Bus\Subscribable.cs" />
+    <Compile Include="ProcessManagement\ProcessHost.cs" />
+    <Compile Include="ProcessManagement\ProcessManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PublishToTypeHandler.cs" />
-    <Compile Include="Queue.cs" />
-    <Compile Include="QueuedHandler.cs" />
-    <Compile Include="RetryingHandler.cs" />
-    <Compile Include="RoundRobinHandler.cs" />
-    <Compile Include="TopicBasedDispatcher.cs" />
+    <Compile Include="Bus\PublishToTypeHandler.cs" />
+    <Compile Include="Bus\Queue.cs" />
+    <Compile Include="Bus\QueuedHandler.cs" />
+    <Compile Include="Bus\RetryingHandler.cs" />
+    <Compile Include="Bus\RoundRobinHandler.cs" />
+    <Compile Include="Bus\TopicBasedDispatcher.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,6 @@
 using System;
 
-namespace Kyu
+namespace Kyu.Bus
 {
     public interface IHaveTimeToLive
     {

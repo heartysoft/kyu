@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Kyu
+namespace Kyu.Bus
 {
     public class Queue<T>
     {

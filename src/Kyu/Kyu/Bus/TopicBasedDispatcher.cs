@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Kyu
+namespace Kyu.Bus
 {
     public class TopicBasedDispatcher
     {

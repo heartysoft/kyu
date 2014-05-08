@@ -1,4 +1,4 @@
-﻿namespace Kyu
+﻿namespace Kyu.Bus
 {
     public class PublishToTopicHandler<T> : Handles<T> where T : Message
     {

@@ -1,6 +1,6 @@
-namespace Kyu
+namespace Kyu.Bus
 {
-    public class Bus
+    public class Bus : Publisher, Subscribable
     {
         readonly TopicBasedDispatcher _dispatcher = new TopicBasedDispatcher();
 

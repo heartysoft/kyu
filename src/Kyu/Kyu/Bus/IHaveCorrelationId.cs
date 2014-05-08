@@ -1,4 +1,4 @@
-namespace Kyu
+namespace Kyu.Bus
 {
     public interface IHaveCorrelationId
     {

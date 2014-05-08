@@ -1,4 +1,4 @@
-namespace Kyu
+namespace Kyu.Bus
 {
     public class RoundRobinHandler<T> : Handles<T> where T : Message
     {
